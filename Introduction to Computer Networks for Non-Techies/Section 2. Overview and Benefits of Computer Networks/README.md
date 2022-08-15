@@ -34,7 +34,7 @@ Peer-to-Peer
   - **There's no centralized control** over shared resources.
 - Any device can share its resources as it pleases.
 - **All computers can act as either a client or a sever.**
-- Easy to set-up, and **common in hom**es****nd small businesses. 
+- Easy to set-up, and **common in homes** and small businesses. 
 
 Client-Server
 
