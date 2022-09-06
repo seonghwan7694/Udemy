@@ -26,9 +26,4 @@ Degree of programming is nothing but maximum number of processes which can be pr
 
 For example, I have a computer which has 4GB RAM. Assume that a size of a single process is 4KB. Now, My computer can have $2^{20}$ processes inside the RAM.
 
-** 참고 
-1KB = $2^{10}$
-1MB = $2^{20}$
-1GB = $2^{30}$
-1TB = $2^{40}$
-1Byte = 8 bits
+** 참고 : 1KB = $2^{10}$, 1MB = $2^{20}$, 1GB = $2^{30}$, 1TB = $2^{40}$, 1Byte = 8 bits
