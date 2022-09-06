@@ -20,3 +20,15 @@
    2. Now machine code has been placed inside the hard disk.
    3. And then it has been moved into the RAM.
    4. Now once it has moved into the Ram, it can undergo either I/O or it can be executed by the CPU or it can simply remain in the RAM, waiting for some event to happen (or for execution by CPU ir wauting for I/O)
+
+### 8. Degree of Multiprogramming
+Degree of programming is nothing but maximum number of processes which can be present in the RAM of our computer.
+
+For example, I have a computer which has 4GB RAM. Assume that a size of a single process is 4KB. Now, My computer can have $2^{20}$ processes inside the RAM.
+
+** 참고 
+1KB = $2^{10}$
+1MB = $2^{20}$
+1GB = $2^{30}$
+1TB = $2^{40}$
+1Byte = 8 bits
