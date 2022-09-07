@@ -46,7 +46,8 @@ So, Batch operating system is the most lowest 'CPU efficiency' compare to other 
 
 3. **Multiprocessing operating system** : This OS can have more than one CPU. Whatever we are using today in our computers is multi-processing operating systems. (Octa core processor, Quad core processor means that in my computer there are 6, 8 processor each.) This means one process is being executed by this CPU(central processing unit), some other process will also be executed by this another CPU.
 
-☆ **Parallel processing(병렬 연산)** vs **Concurrent processing(동시 연산)** - 전체적으로 이해를 못하겠음.
+☆ **Parallel processing(병렬 연산)** vs **Concurrent processing(동시 연산)** : Can't understand
+
 Parrallel processing means, we are executing more than one process at the same time. Multiprocessing OS is actually doing concurrent processing.
 Definitely parallel processing will be faster than concurrent processing. But actually the disadvantage with that si in parrallel processing the system cost will increase.
 
