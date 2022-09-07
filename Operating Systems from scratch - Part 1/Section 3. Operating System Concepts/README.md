@@ -30,12 +30,24 @@ For example, I have a computer which has 4GB RAM. Assume that a size of a single
 
 ### 9. Types of Operating Systems
 
-  1. Batch operating system : degree of multiprogramming is always 1. That means, only one process can be placed inside the RAM. So, not used today.
-  
-  CPU(execution) and I/O devices can work in parrallel. But, Execution and I/O devices can't be done at the same time for 'a particular process'. Parrallel means that when a process is being executed by CPU, I/O is working for another process.
+☆ **CPU efficiency** = **Useful time of CPU**(CPU가 실제로 일한 시간) / **Total Time of CPU**(컴퓨터 켠 후 지금까지의 시간)
 
-☆ CPU efficiency = Useful time of CPU(CPU가 일한 시간) / Total Time of CPU(컴퓨터 켠 후 지금까지의 시간)
+FASTNESS : Batch OS < Multiprogramming OS < Multiprocessing OS
 
-  So, Batch operating system is less 'CPU efficiency' because a process is done by CPU or I/O devices, then taking a another process from hard disk to RAM. If a another process needs I/O devices, CPU is doing nothing.
+1. **Batch operating system** : degree of multiprogramming is always 1. That means, only one process can be placed inside the RAM.
+CPU(execution) and I/O devices can work in parrallel. But, Execution and I/O devices can't be done at the same time for 'a particular process'. Parrallel means that if a process is being executed by CPU, I/O is working for another process vice versa.
+So, Batch operating system is the most lowest 'CPU efficiency' compare to other OS. Because a process is done by CPU or I/O devices, then taking a another process from hard disk to RAM. If a another process needs I/O devices, CPU is doing nothing. Less CPU efficiency means computer is slow.
 
-2. Multiprogramming operating system : degree of multiprogramming is more than 1. That means, We can have more than one process in the RAM.
+<br>
+
+2. **Multiprogramming operating system** : degree of multiprogramming is more than 1. That means, We can have more than one process in the RAM. It makes CPU efficiency improve. Which means if one of the processes is undergoing I/O, at the same time I can execute some other process. Which menas, I'm not allowing the CPU to remain idle. So CPU efficiency is going to improve in multiprogramming ooperating systems.
+
+<br>
+
+3. **Multiprocessing operating system** : This OS can have more than one CPU. Whatever we are using today in our computers is multi-processing operating systems. (Octa core processor, Quad core processor means that in my computer there are 6, 8 processor each.) This means one process is being executed by this CPU(central processing unit), some other process will also be executed by this another CPU.
+
+☆ **Parallel processing(병렬 연산)** vs **Concurrent processing(동시 연산)** - 전체적으로 이해를 못하겠음.
+Parrallel processing means, we are executing more than one process at the same time. Multiprocessing OS is actually doing concurrent processing.
+Definitely parallel processing will be faster than concurrent processing. But actually the disadvantage with that si in parrallel processing the system cost will increase.
+
+☆ Batch OS and Multiprogramming OS can have only one CPU. But multiprocessing OS can have more than one CPU. 
