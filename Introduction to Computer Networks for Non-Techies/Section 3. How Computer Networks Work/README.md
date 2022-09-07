@@ -1,3 +1,5 @@
+# Section 3. How Computer Networks Work
+
 ### 18. Introduction to Computer Networking Protocols
 
 Computer communicate with each other with network protocols.

@@ -1,3 +1,5 @@
+# Section 2. Overview and Benefits of Computer Networks
+
 ### 11. What Is a Computer Network?
 
 A computer network in its most basic form, it's really nothing more than two computers that are connected together to allow them to share resources with one and another.
