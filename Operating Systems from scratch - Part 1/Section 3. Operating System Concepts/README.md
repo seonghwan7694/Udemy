@@ -27,3 +27,15 @@ Degree of programming is nothing but maximum number of processes which can be pr
 For example, I have a computer which has 4GB RAM. Assume that a size of a single process is 4KB. Now, My computer can have $2^{20}$ processes inside the RAM.
 
 ** 참고 : 1KB = $2^{10}$, 1MB = $2^{20}$, 1GB = $2^{30}$, 1TB = $2^{40}$, 1Byte = 8 bits
+
+### 9. Types of Operating Systems
+
+  1. Batch operating system : degree of multiprogramming is always 1. That means, only one process can be placed inside the RAM. So, not used today.
+  
+  CPU(execution) and I/O devices can work in parrallel. But, Execution and I/O devices can't be done at the same time for 'a particular process'. Parrallel means that when a process is being executed by CPU, I/O is working for another process.
+
+☆ CPU efficiency = Useful time of CPU(CPU가 일한 시간) / Total Time of CPU(컴퓨터 켠 후 지금까지의 시간)
+
+  So, Batch operating system is less 'CPU efficiency' because a process is done by CPU or I/O devices, then taking a another process from hard disk to RAM. If a another process needs I/O devices, CPU is doing nothing.
+
+2. Multiprogramming operating system : degree of multiprogramming is more than 1. That means, We can have more than one process in the RAM.
