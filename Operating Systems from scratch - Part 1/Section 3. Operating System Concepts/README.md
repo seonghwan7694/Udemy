@@ -65,22 +65,44 @@ Throughout this course we will mostly be using something called as multiprogramm
 - Passive entity : maybe means 'Program'. The program for which the process is created is also called as "Passive entity"
 - Active entity : maybe means 'Process'. The process which is actually created for the program is also called as "Active entity"
 
-** [Sections of a Process](https://www.thedailyprogrammer.com/2016/08/processes-in-operating-system.html)
+<hr />
+
+** [Sections of a Process](https://www.thedailyprogrammer.com/2016/08/processes-in-operating-system.html) - 구글링해서 찾아본 부분
 A process is divided into four major sections:
 
 ![memory](images/memory.png)
-1. **Code Section**: Code section consists of the code, or instructions of the process. Basically, it is indicatged by the program counter and instruction registers which hold the current and to-be executed instructions.
-2. **Data Section**: This section contains static and global variables, which are initialized before the program is executed.
-3. **Heap Section**: This consists of dynamically allocated memory in the process, using free, alloc, malloc etc. calls.
-4. **Stack Section**: This contains local variables of process and other temporary data, such as address of next instruction during function calls. Contents of this section are automatically destroyed in the order of the stack, as and when they reach the end of their scope.
+
+1. **Code Section**: **Code section consists of the code, or instructions of the process.** Basically, it is indicatged by the program counter and instruction registers which hold the current and to-be executed instructions.
+2. **Data Section**: **This section contains static and global variables**, which are initialized before the program is executed.
+3. **Heap Section**: This consists of **dynamically allocated memory** in the process, using free, alloc, malloc etc. calls.
+4. **Stack Section**: This contains **local variables** of process and other temporary data, such as address of next instruction during **function calls**. Contents of this section are automatically destroyed in the order of the stack, as and when they reach the end of their scope.
+
+<hr />
 
 - Heap (memory) : Dynamic lemory allocation at the runtime. c.f. calloc(), malloc()
 - Stack (memory) : a function is called -> stack.push, a function is being executed by CPU -> stack.pop
 
-☆ There is no fixed space(= size) for stack or heap. It really depends on the program 
+☆ There is no fixed space(= size) for stack or heap. It really depends on the program itself.
 ☆ If some programs will have more dynamic memory allocation, the heap will be growing up. Whereas stack will be growing down. 
 ☆ If some programs will have more function calls, stack will be growing up. Whereas heap will be growing down.
 
+- **Process Control Block (PCB)** :  Process Control Block is a data structure maintained by the operating system to store information of each process.
+  - For every process, it has a PCB each.
+  - A process will not only contain just program, but it will also have some more things like stack, heap and static and global variable
+  - RAM 안에서 PCB 단위(스택, 힙, 코드 섹션, 데이터 섹션을 포함한 '메모리' 그리고 process attributes)로 프로세스가 관리된다는 내용인듯
 
-5분 부터 다시 듣기 시작하기
+<br>
 
+- **Process Attributes** : 매우 어려웠음 :(
+  - **Process ID (PID)** : A unique number. Every process will be assigned a number by OS, and that number will be given to only this(one) process and not to any other process.
+  - **program counter** : A program counter is a register in a computer processor that contains the address (location) of the instruction being executed at the current time. Program counter will actually say the instruction number. Instruction number is nothing but the line of program from where I need to continue the execution. Program counter is nothing but a register. Which will be maintained closer to the CPU. If my OS is using Shortest Job First Scheduling Algorithm, let us assume that P1 takes 9 ms, P2 takes 6ms and P3 takes 5 ms. So, my OS takes P3 to CPU. while running P3 by CPU, P4 which takes 1 ms comes into RAM. Then, P3 has to be forcefully stopped. This process has to be stopped from execution of CPU. Now, P4 has to be scheduled by the scheduler. See P3 is not yet completed. P3 is not yet completed but it is stopped at 3th line of code. Program counter remember where its code stopped.
+  - **process state** : It is explained by before lecture.
+  - **general purpose registers** : General purpose registers are additional registers that are present in CPU which is used for either memory address or data whenever needed.
+  - **priority** : Priority scheduling in OS is the scheduling algorithm which schedules processes according to the priority assigned to each of the processes.
+  - **list of open files** : Which means that files which are being opened by process P3 should have been remembered. when we continue after being preempted.
+  - **list of open devices** : Which means that devices which are being opened by process P3 should have been remembered.. when we continue after being preempted.
+  - **protection** : A process is not using the space of another process.
+
+
+  ☆ Shortest Job First Scheduling Algorithm (SJF) :  Shortest Job First (SJF) is an algorithm in which the process having the smallest execution time is chosen for the next execution. 
+  ☆ First Come First Serve scheduling algorithm : First Come, First Served (FCFS) is a type of scheduling algorithm used by operating systems and networks to efficiently and automatically execute queued tasks, processes and requests by the order of their arrival. (큐 비슷한 거..?)
