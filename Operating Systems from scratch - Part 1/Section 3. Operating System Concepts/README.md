@@ -106,4 +106,4 @@ A process is divided into four major sections:
 
   ☆ Shortest Job First Scheduling Algorithm (SJF) :  Shortest Job First (SJF) is an algorithm in which the process having the smallest execution time is chosen for the next execution. 
   <br>
-  ☆ First Come First Serve scheduling algorithm : First Come, First Served (FCFS) is a type of scheduling algorithm used by operating systems and networks to efficiently and automatically execute queued tasks, processes and requests by the order of their arrival. (큐 비슷한 거..?)
+  ☆ First Come First Serve scheduling algorithm (FCFS) : First Come, First Served (FCFS) is a type of scheduling algorithm used by operating systems and networks to efficiently and automatically execute queued tasks, processes and requests by the order of their arrival. (큐 비슷한 거..?)
