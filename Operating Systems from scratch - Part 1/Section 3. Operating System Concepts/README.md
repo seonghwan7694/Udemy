@@ -54,3 +54,33 @@ Parrallel processing means, we are executing more than one process at the same t
 Definitely parallel processing will be faster than concurrent processing. But actually the disadvantage with that si in parrallel processing the system cost will increase.
 
 ☆ Batch OS and Multiprogramming OS can have only one CPU. But multiprocessing OS can have more than one CPU. 
+
+### 10. An Important point to note
+Throughout this course we will mostly be using something called as multiprogramming OS not multiprocessing OS.
+
+### 11. Process Control block, Attributes of a process
+
+☆ For every program, a process will be created whenever user opens the program.
+
+- Passive entity : maybe means 'Program'. The program for which the process is created is also called as "Passive entity"
+- Active entity : maybe means 'Process'. The process which is actually created for the program is also called as "Active entity"
+
+** [Sections of a Process](https://www.thedailyprogrammer.com/2016/08/processes-in-operating-system.html)
+A process is divided into four major sections:
+
+![memory](images/memory.png)
+1. **Code Section**: Code section consists of the code, or instructions of the process. Basically, it is indicatged by the program counter and instruction registers which hold the current and to-be executed instructions.
+2. **Data Section**: This section contains static and global variables, which are initialized before the program is executed.
+3. **Heap Section**: This consists of dynamically allocated memory in the process, using free, alloc, malloc etc. calls.
+4. **Stack Section**: This contains local variables of process and other temporary data, such as address of next instruction during function calls. Contents of this section are automatically destroyed in the order of the stack, as and when they reach the end of their scope.
+
+- Heap (memory) : Dynamic lemory allocation at the runtime. c.f. calloc(), malloc()
+- Stack (memory) : a function is called -> stack.push, a function is being executed by CPU -> stack.pop
+
+☆ There is no fixed space(= size) for stack or heap. It really depends on the program 
+☆ If some programs will have more dynamic memory allocation, the heap will be growing up. Whereas stack will be growing down. 
+☆ If some programs will have more function calls, stack will be growing up. Whereas heap will be growing down.
+
+
+5분 부터 다시 듣기 시작하기
+
