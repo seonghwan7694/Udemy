@@ -84,3 +84,5 @@ A network is composed of two components.  It has a physical component and it has
     - Self-Healing : 하나의 WAP이 다운되더라도 다른 WAP으로 연결 가능
     - Reliable (redundancy) : 여러 WAP이 존재하므로 신뢰성이 있음, 신뢰할 수 있는 중복성
   - Common in larger homes and businesses.
+  
+<img src="./images/mesh_wireless_topology.png"  width=30% height=30%>
