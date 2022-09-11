@@ -57,7 +57,7 @@ It is based on a 4-layer model that is similar to the OSI model.
 |  Packet |    Network Layer   | Path Detemination & IP(Logical Addressing) |
 |  Frame  |   Data Link Layer  |      MAC and LLC(Physical Addressing)      |
 
-### 21. Introduction to MAC Addresses  (Update 2021 Lecture)
+### 21. Introduction to MAC Addresses
 
 ☆ Both IP addresses and MAC addresses is that they allow us to uniquely identify a device on a network.
 
@@ -77,7 +77,7 @@ A MAC address is a physical address. It's physically burned onto the ROM chip wi
 
 MAC addresses are associated with layer two, which is the data link layer, and that's typically associated with switches.
 
-### 22. Introduction to IP Addresses  (Update 2021 Lecture)
+### 22. Introduction to IP Addresses
 
 ☆ Both IP addresses and MAC addresses is that they allow us to uniquely identify a device on a network.
 
@@ -92,7 +92,7 @@ a device on an IP network.
   
 Unlike a MAC address, we actually have to assign it ourselves within an operating system.
 
-### 23. IP versus MAC Addresses  (Update 2021 Lecture)
+### 23. IP versus MAC Addresses
 
 - IP addresses  
   -  Network (OSI Layer 3) Addresses
@@ -123,7 +123,7 @@ Unlike a MAC address, we actually have to assign it ourselves within an operatin
 
   ☆ MAC addresses are physically burned onto the network interface card(specifically say ROM chip).  you can spoof it within the operating system, but you can't actually change it on the network interface card. MAC addresses are used for inter-network communication, meaning communication within the network that you're currently in. MAC addresses are used for local area network communication.
 
-### 24. Duplex Communication  (Update 2021 Lecture)
+### 24. Duplex Communication
 
 - Network communication will occur in either full or half duplex mode
   - **Half Duplex** : Can send and receive data, but not at the same time
@@ -131,7 +131,7 @@ Unlike a MAC address, we actually have to assign it ourselves within an operatin
 
 ![](images/duplex.gif)
 
-### 25. Network Transmission Types  (New 2021 Lecture)
+### 25. Network Transmission Types
 
 - Unicast : One - to - One
 - Multicast : One - to - Many
@@ -139,7 +139,7 @@ Unlike a MAC address, we actually have to assign it ourselves within an operatin
 
 ![](images/Network_Transmission_Types.png)
 
-### 26. Introduction to Ethernet  (Update 2021 Lecture)
+### 26. Introduction to Ethernet
 
 - The most popular networking technology in the world! 
 - Refers to a family of standards that define the physical and logical aspects of the world's most popular type of LAN. 
