@@ -1,6 +1,6 @@
 # Udemy
 Upload review & summary about Udemy Lecture. <br/>
-Wrong review | summary can be included. So, please do not refer this.
+Wrong review & summary can be included. So, please do not refer this.
 
 |                        Lecture name & link                       |                                                             Repo link                                                            |
 |:----------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
