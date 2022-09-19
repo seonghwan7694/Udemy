@@ -18,18 +18,16 @@ Keyword : Long Term Scheduler, Short Term Scheduler, Middle Term Scheduler, Cont
   - It is a function or module which is present in OS code.
   - It decides which process should be swapped out of the RAM and high priority process can be swapped into the RAM.  
 
-☆ Every process will have something called as priority. Priority (which is one of the process attributes) is the number which is given to every process.
-☆ Every process will have a process control block. 
-☆ Higher priority process should always be executed first before Lower priority processes. 
+☆ Every process will have something called as priority. Priority (which is one of the process attributes) is the number which is given to every process. <br>
+☆ Every process will have a process control block. <br>
+☆ Higher priority process should always be executed first before Lower priority processes. <br>
 
 ***
-##### [Process Table and Process Control Block (PCB)](https://www.geeksforgeeks.org/process-table-and-process-control-block-pcb/)
+#### [Process Table and Process Control Block (PCB)](https://www.geeksforgeeks.org/process-table-and-process-control-block-pcb/) : PCB에 대한 내용 까먹어서 구글링해봄
 
-While creating a process the operating system performs several operations. To identify the processes, it assigns a process identification number(PID) to each process. (중략)... All these information(= attributes of process) is required and must be saved when the process is switched from one state to another. When the process makes a transition from one state to another, the operating system must update information in the process's PCB.
+While creating a process the operating system performs several operations. **To identify the processes, it assigns a process identification number(PID) to each process.** (중략)... All these information(= attributes of process) is required and must be saved when the process is switched from one state to another. **When the process makes a transition from one state to another, the operating system must update information in the process's PCB.**
 
-The **degree of multiprogramming** describes the maximum number of processes that a single-processor system can accommodate efficiently.
-
-<br/>
+☆ The **degree of multiprogramming** describes the maximum number of processes that a single-processor system can accommodate efficiently.
 
 A process control block (PCB) contains information about the process.
 
@@ -42,7 +40,7 @@ A process control block (PCB) contains information about the process.
 - Register : These are the CPU registers which includes : accumulator, base, registers and general purpose registers -> 컴퓨터 구조를 알아야 이해 가능
 - 이해가 안 가므로 나머지는 생략...
 ***
-##### [Difference between Swapping and Context Switching](https://www.geeksforgeeks.org/difference-between-swapping-and-context-switching/#:~:text=An%20operating%20system%20uses%20this,between%20one%20process%20and%20another.)
+#### [Difference between Swapping and Context Switching](https://www.geeksforgeeks.org/difference-between-swapping-and-context-switching/#:~:text=An%20operating%20system%20uses%20this,between%20one%20process%20and%20another.)
 
 **Programs** are **sets of instructions** designed to accomplish specific tasks. Similarly, **a process** refers to **a runtime instance of a computer program**.
 
