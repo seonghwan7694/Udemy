@@ -40,7 +40,7 @@ A process control block (PCB) contains information about the process.
 - Register : These are the CPU registers which includes : accumulator, base, registers and general purpose registers -> 컴퓨터 구조를 알아야 이해 가능
 - 이해가 안 가므로 나머지는 생략...
 ***
-#### [Difference between Swapping and Context Switching](https://www.geeksforgeeks.org/difference-between-swapping-and-context-switching/#:~:text=An%20operating%20system%20uses%20this,between%20one%20process%20and%20another.)
+#### [Difference between Swapping and Context Switching](https://www.geeksforgeeks.org/difference-between-swapping-and-context-switching/#:~:text=An%20operating%20system%20uses%20this,between%20one%20process%20and%20another.) : 강의에서 다루지만, 내용이 부실한 것같아 새로 찾아봄
 
 **Programs** are **sets of instructions** designed to accomplish specific tasks. Similarly, **a process** refers to **a runtime instance of a computer program**.
 
