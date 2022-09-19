@@ -42,7 +42,7 @@ So, Batch operating system is the most lowest 'CPU efficiency' compare to other 
 
 <br>
 
-2. **Multiprogramming operating system** : degree of multiprogramming is more than 1. That means, We can have more than one process in the RAM. It makes CPU efficiency improve. Which means if one of the processes is undergoing I/O, at the same time I can execute some other process. Which menas, I'm not allowing the CPU to remain idle. So CPU efficiency is going to improve in multiprogramming ooperating systems.
+2. **Multiprogramming operating system** : degree of multiprogramming is more than 1. That means, We can have more than one process in the RAM. It makes CPU efficiency improve. Which means if one of the processes is undergoing I/O, at the same time I can execute some other process. Which menas, I'm not allowing the CPU to remain idle. So CPU efficiency is going to improve in multiprogramming operating systems.
 
 <br>
 
