@@ -42,7 +42,7 @@ A process control block (PCB) contains information about the process.
 ***
 #### [Difference between Swapping and Context Switching](https://www.geeksforgeeks.org/difference-between-swapping-and-context-switching/#:~:text=An%20operating%20system%20uses%20this,between%20one%20process%20and%20another.) : 강의에서 다루지만, 내용이 부실한 것같아 새로 찾아봄
 
-**Programs** are **sets of instructions** designed to accomplish specific tasks. Similarly, **a process** refers to **a runtime instance of a computer program**.
+**Programs** are **sets of instructions** designed **to accomplish specific tasks**. Similarly, **a process** refers to **a runtime instance of a computer program**.
 
 1. **Context switching**
 An operating system uses this technique to switch a process between states to execute its functions through CPUs. It is a process of **saving the context(state) of the old process(suspend)** and **loading it into the new process(resume)**. It occurs whenever the CPU switches between one process and another. 
