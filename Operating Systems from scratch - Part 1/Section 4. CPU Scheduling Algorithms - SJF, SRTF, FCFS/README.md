@@ -2,9 +2,7 @@
 
 ### 12. Types of scheduler, Context switching
 
-
 Keyword : Long Term Scheduler, Short Term Scheduler, Middle Term Scheduler, Context Switching, 
-
 
 - Short Term Scheduler(often called as 'Scheduler')
   - It is part of our OS code.
@@ -53,3 +51,20 @@ This is the process by which a process is temporarily swapped (moved) from the m
 - **Swap-in** is the process of removing a program from a hard disk and moving it back to the main memory or RAM.
 - **Swap-out** removes a program from RAM or main memory and moves or stores it to the hard disk or secondary storage.
 ***
+
+### 13. Various times of a process
+
+Let's see what's the difference between **point in time** and **duration in time**.
+- **point in time** vs **duration in time**
+  - point in time : 그 때 그 시점의 시간
+  - duration in time : 그 떄 그 시점의 시간부터 그 이후의 시점까지의 시간
+
+<br>
+
+- **Various times of a process**
+  - **Arrival time** : Point in time. The process is moved from Hard disk to RAM. A program has arrived from hard disk into RAM. That is what we mean by Arrival time.
+  - **Completion time** : Point in time. the process has completed its execution, and this process can be removed completely from the RAM.
+  - **Turn Around Time (TAT)** : Duration in time. TAT = Completion time - Arrival time, TAT = Burst time + I/O time + Waiting Time
+  - **Waiting Time** : Duration in time. Subset of TAT. Waiting time is nothing but, The time spent by a process in the RAM without actually executing. As well as not performing I/O. It is simply waiting inside the RAM to be picked by the CPU, for execution in the future.
+  - **Response time** : 나중에 공부함
+  - **I/O time** : Duration in time. The amount of time which is spent my a process, which is performing I/O after it has arrived to the RAM, until its completion is called as I/O time. 
