@@ -1,6 +1,7 @@
 ## 🛠 Operating Systems
-|     Lecture      |       Repo link       |
-|:----------------:|:---------------------:|
+
+|Lecture|Link|
+|:-----:|:--:|
 |      [Operating Systems from scratch - Part 1](https://www.udemy.com/course/operating-systems-from-scratch-part1/)     |         [🌏🌏🌏](./Operating%20Systems%20from%20scratch%20-%20Part%201/)         |
 |      [Operating Systems from scratch - Part 2](https://www.udemy.com/course/operatingsystems/)     |         [🌏🌏🌏](./Operating%20Systems%20from%20scratch%20-%20Part%202/)         |
 |      [Operating Systems Part 3 : Synchronization and Deadlock](https://www.udemy.com/course/operating-systems-online-course/)     |         [🌏🌏🌏](./Operating%20Systems%20Part%203%20%3A%20Synchronization%20and%20Deadlock/)         |
