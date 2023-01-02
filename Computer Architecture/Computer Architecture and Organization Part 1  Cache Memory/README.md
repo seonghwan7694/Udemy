@@ -1,5 +1,5 @@
-## Computer Organization and Architecture - Part 3
-Review & Summary about 'Computer Organization and Architecture - Part 3'
+## Computer Architecture and Organization Part 1  Cache Memory
+Review & Summary about 'Computer Architecture and Organization Part 1  Cache Memory'
 
 |Section|Link|
 |:--:|:--:|
